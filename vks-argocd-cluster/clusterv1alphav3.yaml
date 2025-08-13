@@ -13,7 +13,7 @@ spec:
          name: v1.32.3---vmware.1-fips-vkr.2
    nodePools:
    - name: nodepool-01
-     replicas: 2
+     replicas: 1
      storageClass: vsan-vks
      vmClass: best-effort-large
      tkr:
