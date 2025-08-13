@@ -1,5 +1,7 @@
 apiVersion: run.tanzu.vmware.com/v1alpha3
 kind: TanzuKubernetesCluster
+metadata:
+  name: cluster-01
 spec:
  topology:
    controlPlane:
